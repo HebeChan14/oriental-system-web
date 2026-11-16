@@ -825,3 +825,22 @@ footer {
         justify-content: flex-start;
     }
 }
+
+/* Equipo, módulos SIGSM y material de marca */
+section[id] { scroll-margin-top: 90px; }
+.team-photo { margin: 0; }
+.team-photo img { display: block; width: 100%; height: auto; border-radius: 22px; }
+.team-photo figcaption { color: #a6b0bf; font-size: .75rem; line-height: 1.6; margin-top: 14px; }
+.sigsm-modules { width: 100%; display: grid; gap: 12px; }
+.sigsm-modules article { border: 1px solid #33344d; border-radius: 14px; padding: 20px; background: #101521; }
+.sigsm-modules span { color: #6fdff7; font-size: .75rem; }
+.sigsm-modules h4 { margin: 8px 0; font-size: 1.1rem; }
+.sigsm-modules p, .brand-feature-copy > p:not(.eyebrow) { color: #aeb8c6; line-height: 1.75; }
+.sigsm-modules p { margin: 0; font-size: .9rem; }
+.project-actions { grid-column: 1 / -1; }
+.brand-feature { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 60px; }
+.flyer-link { display: block; max-width: 420px; justify-self: center; }
+.flyer-link img { width: 100%; height: auto; display: block; border-radius: 18px; border: 1px solid #33344d; }
+a:focus-visible, button:focus-visible { outline: 3px solid #6fdff7; outline-offset: 5px; }
+@media (max-width: 900px) { .brand-feature { grid-template-columns: 1fr; gap: 32px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .orbit { animation: none; } .reveal { transition: none; } }
