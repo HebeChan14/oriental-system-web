@@ -829,7 +829,7 @@ footer {
 /* Equipo, módulos SIGSM y material de marca */
 section[id] { scroll-margin-top: 90px; }
 .team-photo { width: 100%; max-width: 100%; margin: 0; padding: 0; }
-.team-photo img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; object-position: center top; border-radius: 22px; }
+.team-photo img { display: block; width: 100%; max-width: 100%; height: auto; aspect-ratio: 16 / 9; max-height: 78vh; object-fit: cover; object-position: center 25%; border-radius: 22px; }
 @media (max-width: 700px) { .team-photo img { aspect-ratio: 4 / 3; } }
 .team-photo figcaption { color: #a6b0bf; font-size: .75rem; line-height: 1.6; margin-top: 14px; }
 .sigsm-modules { width: 100%; display: grid; gap: 12px; }
